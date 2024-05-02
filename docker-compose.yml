@@ -1,0 +1,52 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:16
+    container_name: db
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_PORT: ${DB_PORT}
+    volumes:
+      - postgresql_data:/var/lib/postgresql/data
+    restart: always
+
+  back:
+    build: ./backend
+    container_name: back
+    env_file:
+      - .env
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    volumes:
+      #- ./backend:/backend
+      - avatars_data:/backend/pong/images
+    restart: always
+
+  front:
+    build: ./frontend
+    container_name: front
+    ports:
+      - 8080:8080
+    depends_on:
+      - back
+    #volumes:
+    #  - ./frontend:/frontend
+    restart: always
+  
+  #nginx:
+  #  container_name: nginx
+  #  build: ./nginx
+  #  ports:
+  #    - 8030:8030
+  #  depends_on:
+  #    - front
+  #  restart: always
+
+volumes:
+  postgresql_data:
+  avatars_data:

@@ -1,0 +1,106 @@
+@font-face {
+    font-family: MoriReg;
+    src: url(/assets/fonts/PPMori-Regular.otf);
+}
+
+@font-face {
+    font-family: MoriRegItalic;
+    src: url(/assets/fonts/PPMori-RegularItalic.otf);
+}
+
+@font-face {
+    font-family: MoriExlight;
+    src: url(/assets/fonts/PPMori-Extralight.otf);
+}
+
+@font-face {
+    font-family: MoriExLightItalic;
+    src: url(/assets/fonts/PPMori-ExtralightItalic.otf);
+}
+
+@font-face {
+    font-family: MoriSemiBold;
+    src: url(/assets/fonts/PPMori-SemiBold.otf);
+}
+
+@font-face {
+    font-family: MoriSemiBoldItalic;
+    src: url(/assets/fonts/PPMori-SemiBoldItalic.otf);
+}
+
+:root {
+    --primaryblue-color: #354ea8;
+    --darkblue-color:  #273e8f;
+    --primary-button-color: #6ca8da;
+    --second-button-color: #6fdf7e;
+    --darksecond-button-color: rgb(84, 190, 98);
+    --warning-color: #f59090;
+    --darkwarning-color: #f06d6d;
+}
+
+body {
+    touch-action:auto;
+}
+
+html p {
+    font-family: MoriReg;
+    color: white;
+}
+
+html button {
+    font-family: MoriReg;
+    color : white
+}
+
+html a {
+    font-family: MoriReg;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+h4 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+.container-shadow {
+    box-shadow: 0px 2px 5px #1a191977;
+}
+
+.custom-bg {
+    background: linear-gradient(to right, #354ea8, #354ea8);
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.link-green {
+    color: var(--second-button-color);
+}
+
+.link-green:hover {
+    color: var(--darksecond-button-color);
+}

@@ -1,0 +1,32 @@
+<div id="myModal" class="modal">
+    <div class="modal-addplayer">
+        <div class="d-flex justify-content-end mb-2">
+            <span id="btnCloseModal"><i class="bi bi-x-lg"></i></span>
+        </div>
+        <div class="m-2 m-md-4" id="divSign">
+            <h1 class="h3 text-center mb-4">Connexion du joueur</h1>
+            <form name="Form">
+                <label class="form-label small" htmlFor="userName">Nom d'utilisateur</label>
+                <input
+                type="text"
+                id="userName"
+                placeholder="Nom d'utilisateur"
+                class="form-control"
+                />
+                <p class="text-center small text-danger mt-1 mb-2" id="errUserName"></p>
+                <label class="form-label mt-2 small" htmlFor="password">Mot de passe</label>
+                <input
+                type="password"
+                id="password"
+                placeholder="Mot de passe"
+                class="form-control"
+                />
+                <p class="text-center small text-danger mt-1 mb-2" id="errPassword"></p>
+            </form>
+            <p class="text-center small text-danger mt-2 mb-2" id="errServ"></p>
+            <div class="text-center mt-4">
+                <button class=" mt-2 mb-1 rounded-pill border" id="submit">Se connecter</button>
+            </div>
+        </div>
+    </div>
+</div>

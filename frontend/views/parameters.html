@@ -1,0 +1,71 @@
+<div id="parameters">
+    <h2 class="text-center mt-5">Modifier le profil</h1>
+    <div class="custom-container justify-content-center mx-auto">
+        <div class="mx-2 align-items-center">
+            <img src="./assets/img_avatar.png" class="avatar mx-2 mt-2" id="mainAvatar" alt="avatar">
+            <button class="btn rounded-pill ms-3" id="btnModifyAvatar">Modifier</button>
+            <input type="file" id="avatarInput" style="display: none;">
+            <div id="avatarPreview" style="display: none;">
+                <div id="previewCanvas"></div>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="btn rounded-pill" id="applyPreview">Appliquer</button>
+                </div>
+            </div>
+        </div>
+        <p class="text-center small mt-1 mb-2" id="errAvatar"></p>
+        <label class="form-label small mt-3" htmlFor="userName">Nom d'utilisateur</label>
+        <input
+        type="text"
+        id="userName"
+        class="form-control"
+        />
+        <p class="text-center small mt-1 mb-2" id="errUserName"></p>
+        <label class="form-label small" htmlFor="mail">E-mail</label>
+        <input
+        type="text"
+        id="mail"
+        class="form-control"
+        />
+        <p class="text-center small mt-1 mb-2" id="errMail"></p>
+        <div class="d-flex justify-content-center my-5" id="divBtnPassword">
+            <button class="btn rounded-pill text-center" id="btnChangePassword">Changer le mot de passe</button>
+        </div>
+        <div class="d-none" id="divChangePassword">
+            <label class="form-label mt-2 small" htmlFor="passwordCurrent">Mot de passe actuel</label>
+            <input
+            type="password"
+            id="passwordCurrent"
+            placeholder="Mot de passe actuel"
+            class="form-control"
+            />
+            <p class="text-center small mt-1 mb-2" id="errPasswordCurrent"></p>
+            <label class="form-label mt-2 small" htmlFor="password">Nouveau mot de passe</label>
+            <input
+            type="password"
+            id="password"
+            placeholder="Mot de passe"
+            class="form-control"
+            />
+            <p class="text-center small mt-1 mb-2" id="errPassword"></p>
+            <label class="form-label mt-2 small" htmlFor="confirmPassword">Confirmer nouveau mot de passe</label>
+            <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Mot de passe"
+            class="form-control"
+            />
+            <p class="text-center small mt-1 mb-2" id="errConfirmPassword"></p>
+        </div>
+        <div class="d-flex flex-row mt-4 align-items-center">
+            <p class="col-10 mx-auto text-white py-2">Authentification à deux facteurs </p>
+            <label class="col-2 container p-3 ms-3">
+                <input type="checkbox" id="checkBox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <p class="small pb-5 text-white">Pour protéger davantage votre compte une clé de sécurité sera envoyée par mail lors de votre authentification</p>
+        <div class="d-flex flex-row" id="bandSave">
+            <button class="mx-auto my-2 rounded-pill" id="btnSave">Enregistrer</button>
+        </div>
+    </div>
+</div>

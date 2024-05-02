@@ -1,0 +1,234 @@
+.pong button {
+    width: 270px;
+    height: 60px;
+    background-color: var(--primaryblue-color);
+    border-style: solid;
+    border-color: var(--second-button-color);
+    border-width: 5px;
+    font-size: large;
+    color: white;
+    box-shadow: 0px 2px 5px #1a191900;
+}
+
+.pong .avatar, #lobby .avatar, .pong-online .avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.pong h4, #lobby h4, .pong-online h4 {
+  font-size: 22px;
+}
+
+.pong .player, #lobby .player, .pong-online .player {
+  border: solid 1px;
+  background-color: var(--darkblue-color);
+  border-color: white;
+  min-width: 250px;
+  max-width: 300px;
+  height: 80px;
+}
+
+#btnAddPlayer {
+  border-color:  var(--primary-button-color);
+}
+
+#btnAddPlayer:hover {
+  background-color: var(--primary-button-color);
+}
+
+#btnPlayLocal {
+  border-color: var(--second-button-color);
+}
+
+#btnPlayLocal:hover,
+.pong-tournament #btnLaunchTournament:hover,
+#lobby #btnPlayNextMatch:hover,
+#lobby a:hover {
+  background-color: var(--second-button-color);
+}
+
+#continue, #next, #end {
+  width: 200px;
+  height: 60px;
+  border-width: 5px;
+  font-size:x-large;
+  color: white;
+  border-color: var(--primary-button-color);
+  background-color: var(--primary-button-color);
+}
+
+#continue:hover, #next:hover, #end:hover {
+  border-color: rgb(39, 124, 194);
+  background-color: rgb(39, 124, 194);
+}
+
+.pong-tournament #listPlayers li {
+  min-width: 250px;
+  height: 70px;
+}
+
+.pong-tournament #listPlayers li .avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.pong-tournament #listPlayers li {
+  border: solid 1px;
+  background-color: var(--darkblue-color);
+  border-color: white;
+}
+
+.pong-tournament #btnLaunchTournament {
+    color: white;
+    border-color: var(--second-button-color);
+}
+
+#questionMark:hover {
+    color: var(--second-button-color);
+}
+
+.btnDeletePlayer {
+    color: white;
+}
+
+.btnDeletePlayer:hover {
+    color: #f06d6d;
+    cursor: pointer;
+}
+
+/***************************
+*          LOBBY           * 
+***************************/
+
+#lobby #btnPlayNextMatch {
+    font-size: larger;
+    width: 270px;
+    height: 60px;
+    color: white;
+    border-color: var(--second-button-color);
+}
+
+#lobby a {
+    font-size: larger;
+    width: 270px;
+    height: 60px;
+    color: white;
+    border-color: var(--second-button-color);
+}
+
+#lobby .container-result {
+    max-width: 600px;
+}
+
+#lobby .card-friend .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#lobby .card-friend {
+    background-color: var(--darkblue-color);
+    border: solid ;
+    border-width: 1px;
+}
+
+/***************************
+*      ANNIM SPINNER       * 
+***************************/
+
+.lds-default {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-default div {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: var(--second-button-color);
+  border-radius: 50%;
+  animation: lds-default 1.2s linear infinite;
+}
+
+.lds-default div:nth-child(1) {
+  animation-delay: 0s;
+  top: 37px;
+  left: 66px;
+}
+
+.lds-default div:nth-child(2) {
+  animation-delay: -0.1s;
+  top: 22px;
+  left: 62px;
+}
+
+.lds-default div:nth-child(3) {
+  animation-delay: -0.2s;
+  top: 11px;
+  left: 52px;
+}
+
+.lds-default div:nth-child(4) {
+  animation-delay: -0.3s;
+  top: 7px;
+  left: 37px;
+}
+
+.lds-default div:nth-child(5) {
+  animation-delay: -0.4s;
+  top: 11px;
+  left: 22px;
+}
+
+.lds-default div:nth-child(6) {
+  animation-delay: -0.5s;
+  top: 22px;
+  left: 11px;
+}
+
+.lds-default div:nth-child(7) {
+  animation-delay: -0.6s;
+  top: 37px;
+  left: 7px;
+}
+
+.lds-default div:nth-child(8) {
+  animation-delay: -0.7s;
+  top: 52px;
+  left: 11px;
+}
+
+.lds-default div:nth-child(9) {
+  animation-delay: -0.8s;
+  top: 62px;
+  left: 22px;
+}
+
+.lds-default div:nth-child(10) {
+  animation-delay: -0.9s;
+  top: 66px;
+  left: 37px;
+}
+
+.lds-default div:nth-child(11) {
+  animation-delay: -1s;
+  top: 62px;
+  left: 52px;
+}
+
+.lds-default div:nth-child(12) {
+  animation-delay: -1.1s;
+  top: 52px;
+  left: 62px;
+}
+
+@keyframes lds-default {
+  0%, 20%, 80%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}

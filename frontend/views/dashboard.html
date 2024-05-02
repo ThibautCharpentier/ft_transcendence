@@ -1,0 +1,41 @@
+<div class="d-flex h-100 justify-content-center mt-5" id="spinner">
+    <div class="spinner-border text-light mt-5" style="width: 3rem; height: 3rem;" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+<div class="d-none" id="divDashboard">
+    <div class="container px-5 px-md-0 px-xl-5 mt-3 pt-5 ">
+        <div class="col-md-5 container p-1 container-profil mb-3">
+            <div class="d-flex mb-4 align">
+                <img src="./assets/img_avatar.png" class="avatar mx-2 mt-2" id="mainAvatar" alt="avatar">
+                <h2 class="mx-2 mt-2 align-self-center" id="username"></h2>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <img src="./assets/keyboard.png" width="50px" alt="clavier">
+                    <h5 class="mt-3 mb-0 text-nowrap">Parties jouées</h5>
+                    <p  class="mt-2" id="gamePlayed"></p>
+                </div>
+                <div  class="col">
+                    <img src="./assets/trophy.png" width="50px" alt="trophé">
+                    <h5 class="mt-3 mb-0 text-nowrap">Parties gagnées</h5>
+                    <p class="mt-2" id="successNbr"></p>
+                </div>
+                <div  class="col">
+                    <img src="./assets/win.png"  width="50px" alt="gagnant">
+                    <h5 class="mt-3 mb-0 text-nowrap">Meilleure série</h5>
+                    <p class="mt-2" id="winStreak"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row mx-xl-5 game-mode mt-2 mt-md-5">
+        <button class="m-4 mx-0 mx-md-4 rounded-pill mx-0" id="modeNormal">Pong</button>
+        <button class="m-4 mx-0 mx-md-4 rounded-pill mx-0" id="modeTournament">Tournoi</button>
+        <button class="m-4 mx-0 mx-md-4 d-none rounded-pill mx-0" id="btnModeLocal">Local</button>
+        <button class="m-4 mx-0 mx-md-4 d-none rounded-pill mx-0" id="btnModeOnline">En Ligne</button>
+    </div>
+    <div class="text-center">
+        <button class="d-none" id="btnReturn"><i class="bi bi-arrow-left-circle mx-2"></i>Retour</button>
+    </div>
+</div>

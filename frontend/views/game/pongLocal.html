@@ -1,0 +1,41 @@
+<div class="pagePongLocal">
+    <div id="beforeGame">
+        <div class="pong">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <p class="text-center text-white h2 mt-2">Pong</p>
+                    <a tabindex="0" class="ms-4 mt-1" data-bs-html="true" data-bs-container="body" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content=""><i class="bi bi-patch-question h2" id="questionMark"></i></a>
+                </div>
+            </div>
+            <div class="container text-white mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center px-0">
+                <div class="col-md-5 d-flex justify-content-center justify-content-md-end align-items-center">
+                    <img src="./assets/keyWS.png" height="80px" alt="touches W et S" class="me-2">
+                    <div class="player d-flex justify-content-start align-items-center rounded-pill px-2" id="firstPlayer">
+                      <img src="" class="rounded-circle avatar" alt="avatar">
+                      <h4 class="mt-2 mb-1 usernameFriend ms-2 h4"></h4>
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex justify-content-center align-items-center mx-3 my-4 my-md-0">
+                    <p class="h1 pt-2">VS</p>
+                </div>
+                <div class="col-md-5 d-flex justify-content-md-start justify-content-center " id="divBtnAdd">
+                    <button class="btn rounded-pill px-4" id="btnAddPlayer"><i class="bi bi-person-add me-2"></i>Ajouter un joueur</button>
+                </div>
+                <div class="col-md-5 d-none d-flex" id="divOpponent">
+                    <div class="player rounded-pill d-flex justify-content-start align-items-center px-2" id="">
+                        <img src="./assets/img_avatar.png" class="rounded-circle avatar" alt="avatar">
+                        <h4 class="mt-2 mb-1 usernameFriend ms-2 h4"></h4>
+                        <div class='w-100 d-flex justify-content-end'>
+                          <i class='bi bi-x-lg h3 mt-2 btnDeletePlayer' id="btnDeleteOpponent"></i>
+                        </div>
+                    </div>
+                    <img src="./assets/keyArrows.png" height="80px" alt="touches W et S" class="ms-2">
+                </div>
+            </div>
+            <div></div>
+            <div class="d-flex justify-content-center align-items-center text-center mt-5">
+                <button class="btn rounded-pill text-white d-none" id="btnPlayLocal">Jouer</button>
+            </div>
+        </div>
+    </div>
+</div>

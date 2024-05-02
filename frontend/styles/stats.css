@@ -1,0 +1,26 @@
+.bg-pong {
+    border-color: var(--second-button-color) !important;
+    background-color: var(--primaryblue-color);
+    border : solid;
+    border-width: 5px !important;
+    color : white;
+}
+
+.bg-pong li {
+    border-width: 1px !important;
+    border-top-width: 0px !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+}
+
+.bg-pong li:last-child {
+    border-width: 0px !important;
+}
+
+.bg-tournament {
+    border-color: var(--primary-button-color);
+    background-color: var(--primaryblue-color);
+    border-style : solid;
+    border-width: 5px;
+    color : white;
+}

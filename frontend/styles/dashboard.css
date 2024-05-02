@@ -1,0 +1,66 @@
+#divDashboard .container-profil {
+    padding: 20px;
+    background-color: var(--darkblue-color);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #1a191977;
+    color: white;
+}
+
+#divDashboard h5 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#divDashboard .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+#divDashboard h2 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#divDashboard .game-mode button {
+    width: 90%;
+    max-width: 400px;
+    height: 100px;
+    background-color: var(--primaryblue-color);
+    border-color: var(--second-button-color);
+    border-style: solid;
+    border-width: 5px;
+    font-size:xx-large;
+    color: white;
+    box-shadow: 0px 2px 5px #1a191900;
+}
+
+#btnReturn {
+    background-color: var(--primaryblue-color);
+    border: none;
+    width: 120px;
+}
+
+#btnReturn:hover {
+    color: var(--second-button-color);
+}
+
+#divDashboard .game-mode #modeNormal {
+    border-color: var(--second-button-color);
+}
+
+#divDashboard .game-mode #btnModeLocal:hover,
+#divDashboard .game-mode #btnModeOnline:hover,
+#divDashboard .game-mode #modeNormal:hover {
+    background-color: var(--second-button-color);
+}
+
+#divDashboard .game-mode #modeTournament {
+    border-color: var(--primary-button-color);
+}
+
+#divDashboard .game-mode #modeTournament:hover {
+    background-color: var(--primary-button-color);
+}

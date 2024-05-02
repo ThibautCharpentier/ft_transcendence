@@ -1,0 +1,121 @@
+#parameters .custom-container {
+    width: 300px;
+}
+
+#parameters label {
+    color: white;
+}
+
+#parameters .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+#parameters .btn:hover {
+    background-color: var(--primary-button-color);
+}
+
+#parameters .btn {
+    background-color: #354ea8;
+    border: solid;
+    border-width: 5px;
+    border-color: var(--primary-button-color);
+    color: white;
+}
+
+#parameters .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+#parameters #bandSave {
+    background-color: var(--darkblue-color);
+    position:absolute;
+    bottom:0px;
+    margin-bottom:0px;
+    height:70px;
+    width: 300px;
+    overflow:hidden;
+    z-index:10;
+    position: fixed;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#parameters #btnSave {
+    border: solid;
+    border-width: 5px;
+    background-color: var(--darkblue-color);
+    border-color: var(--second-button-color);
+    color: white;
+}
+
+#parameters #btnSave:hover {
+    background-color: var(--second-button-color);
+}
+
+#parameters p {
+  color : var(--warning-color);
+}
+
+#parameters .valid {
+  outline: solid;
+  outline-color: var(--second-button-color);
+}
+
+/* Hide the browser's default checkbox */
+#parameters .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+#parameters .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+#parameters .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+#parameters .container input:checked ~ .checkmark {
+  background-color: var(--second-button-color);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#parameters .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+#parameters .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+#parameters .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 8px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

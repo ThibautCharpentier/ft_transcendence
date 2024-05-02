@@ -1,0 +1,49 @@
+ <div id="lobby">
+    <div class="" id="announceNextMatch">
+        <h1 class="text-center mt-5 text-white">Prochain match</h1>
+        <div class="container text-white mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center px-0">
+            <div class="col-md-5 d-flex justify-content-center justify-content-md-end align-items-center">
+                <img src="./assets/keyWS.png" height="80px" alt="touches W et S" class="me-2">
+                <div class="player d-flex justify-content-start align-items-center rounded-pill px-2" id="firstPlayer">
+                    <img src="./assets/img_avatar.png" class="rounded-circle avatar" alt="avatar">
+                    <h4 class="mt-2 mb-1 usernameFriend ms-2 h4"></h4>
+                </div>
+            </div>
+            <div class="col-md-2 d-flex justify-content-center align-items-center mx-5 my-4 my-md-0">
+                <p class="h1 pt-2">VS</p>
+            </div>
+            <div class="col-md-5 d-flex" id="secondPlayer">
+                <div class="player rounded-pill d-flex justify-content-start align-items-center px-2">
+                    <img src="./assets/img_avatar.png" class="rounded-circle avatar" alt="avatar">
+                    <h4 class="mt-2 mb-1 usernameFriend ms-2 h4"></h4>
+                </div>
+                <img src="./assets/keyArrows.png" height="80px" alt="touches fléchées haut et bas" class="ms-2">
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="button btn rounded-pill px-4 mt-5" id="btnPlayNextMatch">Jouer</button>
+        </div>
+    </div>
+    <div class="mt-5 text-white d-none" id="resultTournament">
+        <h1 class="text-center">Résultats</h1>
+        <div class="container container-result mt-5 px-0">
+            <div class="d-flex justify-content-center">
+                <div class=" ms-5 me-0 d-flex justify-content-end justify-content-md-center w-75">
+                    <div class="col-8 col-md-6 d-none d-md-block col text-center"></div>
+                    <div class="col-4 col-md-3 ">
+                        <p class="h6 text-center">Victoires</p>
+                    </div>
+                    <div class="col-4 col-md-3 d-none d-md-block">
+                        <p class="h6 text-center">Défaites</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="mx-4 mx-md-5 list-group align-items-start" id="listResult">
+                <!-- Add cardResultPlayer -->
+            </ul>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-5">
+            <a class="m-1 btn btn-lg text-nowrap rounded-pill d-flex align-items-center justify-content-center" href="/#/dashboard">Revenir au Menu</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,173 @@
+/***************************
+*       MODAL PROFIL       * 
+***************************/
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: rgb(232, 234, 236);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(232, 234, 236);
+  max-width: 700px;
+  width: 80%;
+} 
+
+.modal .avatar {
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal #infos p,
+.modal #infos h5 {
+    color: #000;
+}
+
+.modal #btnModalWaitingFriend {
+  border: solid;
+  color: white;
+  border-color: var(--primary-button-color);
+  background-color: var(--primary-button-color);
+}
+
+.modal #btnModalDeleteFriend {
+  border: solid;
+  color: white;
+  border-color: var(--warning-color);
+  background-color: var(--warning-color);
+}
+
+.modal #btnModalDeleteFriend:hover {
+  background-color: var(--darkwarning-color);
+  border-color: var(--darkwarning-color);
+}
+
+.modal #btnModalAddFriend {
+  border: solid;
+  border-color: var(--second-button-color);
+  color: white;
+  background-color: var(--second-button-color);
+}
+
+.modal #btnModalAddFriend:hover {
+  background-color: var(--darksecond-button-color);
+  border-color: var(--darksecond-button-color);
+}
+
+.modal #btnCloseModal {
+  cursor: pointer;
+}
+
+.modal #mainAvatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.modal #listMatchsModal .avatar {
+  cursor: pointer;
+}
+
+/***************************
+*      MODAL ADD PLAYER    * 
+***************************/
+
+.modal-addplayer, #modal-notifications {
+  background-color: rgb(232, 234, 236);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(232, 234, 236);
+  border-radius: 10px;
+  max-width: 400px;
+  width: 80%;
+}
+
+.modal-addplayer #submit {
+  height: 50px;
+  width: 170px;
+  background-color: var(--primary-button-color);
+  border-color: var(--primary-button-color);
+  color: white;
+}
+
+.modal-addplayer #submit:hover {
+  background-color: rgb(57, 143, 212);
+}
+
+.modal-addplayer p {
+  color: var(--warning-color);
+}
+
+
+/***************************
+*    MODAL NOTIFICATIONS   * 
+***************************/
+
+#modal-notifications {
+  max-width: 440px;
+}
+
+#modal-notifications .notif {
+  background-color: var(--darkblue-color);
+}
+
+#modal-notifications button {
+  background-color: var(--darkblue-color);
+  border: solid;
+}
+
+#modal-notifications .acceptInvit {
+  border-color: var(--second-button-color);
+}
+
+#modal-notifications .acceptInvit:hover {
+  background-color: var(--second-button-color);
+}
+
+#modal-notifications .refuseInvit {
+  border-color: var(--warning-color);
+}
+
+#modal-notifications .refuseInvit:hover {
+  background-color: var(--warning-color);
+}
+
+#modal-notifications i::before {
+  margin-top: 5px;
+}
+
+#modal-notifications h4 {
+  font-size: 1rem;
+}
+
+#modal-notifications #msgEmptyNotif {
+  color: #999898;
+}

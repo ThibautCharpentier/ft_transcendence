@@ -1,0 +1,46 @@
+<div class="pong-online">
+    <div id="beforeGame">
+        <div class="pong">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <p class="text-center text-white h2 mt-2">Pong</p>
+                <a tabindex="0" class="ms-4 mt-1" data-bs-html="true" data-bs-container="body" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content=""><i class="bi bi-patch-question h2 " id="questionMark"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+                <img src="./assets/keyArrows.png" height="80px" alt="touches W et S" class="me-2">
+                <div class="player d-flex justify-content-start align-items-center rounded-pill px-2" id="cardPlayer">
+                  <img src="./assets/img_avatar.png" class="rounded-circle avatar" alt="avatar">
+                  <h4 class="mt-2 mb-1 ms-2 h4 text-white"></h4>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <p class="text-center h3 text-white">Recherche d'un adversaire</p>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+            <div class="lds-default">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-none" id="gameOnline">
+        <div class="position-relative d-flex justify-content-center">
+            <canvas id="canvas" class="start-50"></canvas>
+            <button class="button btn btn-danger position-absolute top-50 start-50 translate-middle d-none" id="end">END</button>
+        </div>
+    </div>
+</div>

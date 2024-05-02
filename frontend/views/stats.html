@@ -1,0 +1,60 @@
+<div class="d-flex h-100 justify-content-center mt-5" id="spinner">
+    <div class="spinner-border text-light mt-5" style="width: 3rem; height: 3rem;" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+<div class="d-none" id="divStats">
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="container col-11 col-md-8 rounded my-2 my-sm-4 px-4 py-2 container-shadow border bg-pong">
+                <h2 class="text-center my-4">Pong</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex row bg-pong">
+                        <div class="col col-sm-10 text-nowrap d-flex justify-content-center justify-content-md-start">Nombre de parties</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-md-end" id="nbrGames"></div>
+                    </li>
+                    <li class="list-group-item d-flex row bg-pong">
+                        <div class="col col-sm-10 text-nowrap d-flex justify-content-center justify-content-md-start">Taux de réussite</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-md-end" id="successRate">0%</div>
+                    </li >
+                    </li>
+                    <li class="list-group-item d-flex row bg-pong">
+                        <div class="col col-sm-10 text-nowrap d-flex justify-content-center justify-content-md-start">Parties gagnées</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-md-end" id="victory">0</div>
+                    </li>
+                    <li class="list-group-item d-flex row bg-pong">
+                        <div class="col col-sm-10 text-nowrap d-flex justify-content-center justify-content-md-start">Série de victoires actuelle</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-md-end" id="winStreak">0</div>
+                    </li>
+                    <li class="list-group-item d-flex row bg-pong mb-4">
+                        <div class="col-sm-10 d-flex text-nowrap justify-content-center justify-content-md-start">Meilleure série de victoires</div>
+                        <div class="col-sm-2 d-flex justify-content-center justify-content-md-end" id="bestWinStreak">0 🔥</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="container col-11 col-md-8 col-lg-5 mt-2 mt-sm-4 mt-lg-0 bg-tournament rounded px-4 py-2 container-shadow">
+                <h2 class="text-center my-4">Tournois</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex row bg-tournament">
+                        <div class="col col-sm-10 text-nowrap d-flex justify-content-center justify-content-md-start">Nombre de tournois</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-sm-end" id="nbrTournaments">0</div>
+                    </li>
+                    <li class="list-group-item d-flex row bg-tournament">
+                        <div class="col col-sm-10 text-nowrap d-flex justify-content-center justify-content-md-start">Tournois gagnés</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-sm-end" id="victoryInTournaments">0</div>
+                    </li>
+                    <li class="list-group-item d-flex row bg-tournament">
+                        <div class="col col-sm-10 d-flex text-nowrap justify-content-center justify-content-md-start">Série de victoires actuelle</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-sm-end" id="winStreakInTournaments">0</div>
+                    </li>
+                    <li class="list-group-item d-flex row bg-tournament mb-4">
+                        <div class="col col-sm-10 d-flex text-nowrap justify-content-center justify-content-md-start">Meilleure série de victoires</div>
+                        <div class="col col-sm-2 d-flex justify-content-center justify-content-sm-end" id="bestWinStreakInTournaments">0 🔥</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

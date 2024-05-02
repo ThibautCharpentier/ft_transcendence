@@ -1,0 +1,37 @@
+.bg-nav {
+    background-color: var(--primaryblue-color);
+    box-shadow: 0px 0px 28px 13px #233574;
+}
+
+.navbar a {
+    color: white;
+    font-family: MoriReg;
+}
+
+.navbar a:hover {
+    color: var(--second-button-color);
+    font-family: MoriReg;
+    cursor: pointer;
+}
+
+.item-active {
+    color: var(--second-button-color) !important;
+    font-family: MoriSemiBold;
+}
+
+#disconnection {
+    color: white;
+    cursor: pointer;
+}
+
+#disconnection:hover {
+    color: var(--warning-color);
+}
+
+nav #navNotification span {
+    top: -10px;
+    right: -5px;
+    border: solid 2px;
+    border-color: var(--primaryblue-color);
+    background-color: var(--warning-color);
+}

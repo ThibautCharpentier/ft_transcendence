@@ -1,0 +1,76 @@
+#divHistory #listMatchs .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card-history li{
+    background-color: var(--darkblue-color);
+}
+
+.card-history h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.history-stats h6 {
+    color: white;
+}
+
+.mode-tournament .history-stats h4 {
+    color: var(--primary-button-color);
+}
+
+.mode-pong .history-stats h4 {
+    color: var(--second-button-color);
+}
+
+.card-history h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.card-history .score {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.card-history button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-down {
+    border-color: var(--primary-button-color) !important;
+    background: none !important;
+}
+
+.btn-down:hover {
+    background-color: var(--primary-button-color) !important;
+}
+
+.btn-down i:hover{
+    color : white !important;
+}
+
+#EmptyHistory {
+    color: #15214e;
+}

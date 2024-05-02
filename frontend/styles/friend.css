@@ -1,0 +1,65 @@
+#divDashboardFriend .nav-friend li:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+#divDashboardFriend .card-friend .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline : solid 2px;
+    cursor: pointer;
+}
+
+#divDashboardFriend h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+#divDashboardFriend .card-friend {
+    background-color: var(--darkblue-color);
+    border: solid ;
+    border-width: 1px;
+}
+
+#divDashboardFriend .card-friend button {
+    background-color: var(--darkblue-color);
+    border: none;
+}
+
+#btnAddFriend {
+    color: white;
+    border-color: var(--second-button-color);
+}
+
+#btnAddFriend:hover {
+    background-color: var(--second-button-color);
+}
+
+#divDashboardFriend .statusOffline {
+    color:white;
+}
+
+#divDashboardFriend .statusOnline {
+    color: var(--second-button-color);
+}
+
+#divDashboardFriend .statusIngame,
+#errorAddFriend,
+#divDashboardFriend .card-friend button i:hover {
+    color: var(--warning-color);
+}
+
+#msgEmptyFriend {
+    color: #15214e;
+}
+
+#divDashboardFriend .requestSend {
+    outline: solid 5px;
+    outline-color: var(--second-button-color);
+}
+
+#divDashboardFriend .requestNotSend {
+    outline: solid 5px;
+    outline-color: var(--warning-color);
+}

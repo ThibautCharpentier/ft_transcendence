@@ -1,0 +1,46 @@
+<div id="signIn">
+    <h1 class="text-center text-white">Bienvenue sur Pong</h1>
+    <div class="custom-container bg-light mt-4">
+        <div id="divSign">
+            <form name="Form">
+                <label class="form-label small" htmlFor="userName">Nom d'utilisateur</label>
+                <input
+                type="text"
+                id="userName"
+                placeholder="Nom d'utilisateur"
+                class="form-control"
+                />
+                <p class="text-center small text-danger mt-1 mb-2" id="errUserName"></p>
+                <label class="form-label mt-2 small" htmlFor="password">Mot de passe</label>
+                <input
+                type="password"
+                id="password"
+                placeholder="Mot de passe"
+                class="form-control"
+                />
+                <p class="text-center small text-danger mt-1 mb-2" id="errPassword"></p>
+            </form>
+            <p class="text-center small text-danger mt-1 mb-2" id="errServ"></p>
+            <div class="text-center mt-4">
+                <button class="button btn btn-primary mt-3 mb-1" id="submit">Se connecter</button>
+            </div>
+        </div>
+        <div class="d-none" id="divCode2FA">
+            <p class="underline-text small-text" id="txtReturn"><i class="bi bi-arrow-left"></i><span class="ms-2">Retour</span></p>
+            <label class="form-label small" htmlFor="code">Veuillez entrer le code reçu par mail</label>
+            <input
+            type="text"
+            id="code"
+            placeholder="Code"
+            class="form-control"
+            />
+            <p class="text-center small text-danger mt-1 mb-2" id="errCode"></p>
+            <div class="text-center mt-4">
+                <button class="button btn btn-primary mt-3 mb-1" id="btnValidateCode">Valider</button>
+            </div>
+        </div>
+        <div class="underscore mt-4">
+            <p class="small-text text-muted mt-2">Nouveau sur Pong ? <a class="underline-text" href="/#/signup">Créer un compte</a></p>
+        </div>
+    </div>
+</div>
