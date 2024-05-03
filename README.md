@@ -1,5 +1,7 @@
 # ft_transcendence
 
+![alt-text](https://github.com/ThibautCharpentier/ft_transcendence/blob/main/previews/welcome.png)
+
 ft_transcendence is a 42 school team project where we have to create a **SPA (Single Page Application) website** allowing us to play **Pong Game**.
 
 ## Status
@@ -9,6 +11,8 @@ ft_transcendence is a 42 school team project where we have to create a **SPA (Si
 
 ## Rules
 
+![alt-text](https://github.com/ThibautCharpentier/ft_transcendence/blob/main/previews/dashboard.png)
+
 * Our application must be compatible with **Google Chrome**. We have to use **Javascript** to develop **the frontend**. The user must be able to use the browser's **Back** and **Forward** buttons.
 
 * Users must be able to participate in a **Pong Game** match in real-time against another user on the same computer using the same keyboard. A player must also be able to organize a tournament.
@@ -17,6 +21,8 @@ A tournament consists of several players who can play against each other.
 * Any password stored in the database must be **encrypted**. The website must be protected against **SQL/XSS injections**. It is mandatory to implement an **SSL certificate** (which can be self-signed).
 
 ### Modules
+
+![alt-text](https://github.com/ThibautCharpentier/ft_transcendence/blob/main/previews/pong.png)
 
 To validate the project, we have to choose several modules from a list. Each module is worth either **1 or 0.5 point**. We have to implement a value of **7 points**.
 
