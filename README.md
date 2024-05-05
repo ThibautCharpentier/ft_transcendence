@@ -90,4 +90,5 @@ https://127.0.0.1:8080/
 ***
 Made by:
 * Ismérie George: [@Ismerie](https://github.com/Ismerie) <ismerie.george@gmail.com>
+* Arthur Bouchet: [@tuturbo](https://github.com/tuturbo) <arthur3@live.fr>
 * Thibaut Charpentier: <thibaut.charpentier42@gmail.com>
