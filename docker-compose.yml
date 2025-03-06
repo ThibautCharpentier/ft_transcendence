@@ -37,15 +37,6 @@ services:
     #volumes:
     #  - ./frontend:/frontend
     restart: always
-  
-  #nginx:
-  #  container_name: nginx
-  #  build: ./nginx
-  #  ports:
-  #    - 8030:8030
-  #  depends_on:
-  #    - front
-  #  restart: always
 
 volumes:
   postgresql_data:
