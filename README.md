@@ -61,13 +61,13 @@ DB_NAME=transcendence
 JWT_SECRET_KEY=ItIsASecretTokenKey
 
 #You have to use an email communication platform to send email (like sendgrid for example) and put your settings here:
-EMAIL_HOST =
-EMAIL_HOST_USER =
-EMAIL_HOST_PASSWORD =
-EMAIL_PORT =
+EMAIL_HOST=
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+EMAIL_PORT=
 
 #Put whatever you want for this one too:
-SECRET_KEY= 'ItIsASecretKey'
+SECRET_KEY='ItIsASecretKey'
 
 ```
 
