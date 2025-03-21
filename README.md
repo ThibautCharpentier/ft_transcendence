@@ -45,9 +45,9 @@ First of all, you need to create an **.env** file in the root of the project, li
 FRONT_URL=https://localhost:8080
 FRONT_URL2=https://127.0.0.1:8080
 
-#ifconfig enp4s0f0 | grep 'inet' | awk '{print $2}' | head -n 1
+#ifconfig | grep 'inet'
 #OR
-#ip addr show enp4s0f0 | grep 'inet ' | awk '{print $2}' | cut -d/ -f1 | head -n 1
+#ip addr | grep 'inet '
 HOST_IP=
 
 #Settings of your database, by default it can be:
